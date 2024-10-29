@@ -1,0 +1,259 @@
+div.admazing-icons ul {
+	margin:0;
+}
+div.admazing-icons li {
+	display:inline-block;
+	overflow:hidden;
+	text-align:center;
+}
+div.admazing-icons li a {
+	display:block;
+	text-decoration:none;
+	margin:auto;
+}
+div.admazing-icons li span {
+	background:#aaa;
+	color:#eee;
+	display:inline-block;
+	padding:2px 10px;
+	border-radius:10px;
+	line-height:18px;
+	margin-top:5px;
+}
+#admazing-widget div.inside {
+	margin-bottom:0;
+}
+div.admazing-icons li a.delete_icon {
+	background:url(../images/remove_32.png) 0 0 no-repeat !important;
+	width:32px !important;
+	height:32px !important;
+	border:0 !important;
+	margin-top:-15px;
+	position:absolute;
+	cursor:pointer;
+}
+div.admazing-icons li a img {
+	width:60%;
+	margin:20%;
+}
+div.admazing-sortable a {
+	cursor:move;
+}
+div.admazing-sortable li.new a,
+div.admazing-sortable li.save a,
+div.admazing-sortable li.forget a {
+	cursor:pointer;
+	color:#1e8cbe !important;
+}
+	div.admazing-sortable li.new a:hover,
+	div.admazing-sortable li.save a:hover,
+	div.admazing-sortable li.forget a:hover {
+		color:#0074a2 !important;
+	}
+div.admazing-sortable ul.admazing-dark li.new a,
+div.admazing-sortable ul.admazing-dark li.save a,
+div.admazing-sortable ul.admazing-dark li.forget a {
+	cursor:pointer;
+	color:#aee !important;
+}
+	div.admazing-sortable ul.admazing-dark li.new a:hover,
+	div.admazing-sortable ul.admazing-dark li.save a:hover,
+	div.admazing-sortable ul.admazing-dark li.forget a:hover {
+		color:#e6feff !important;
+	}
+
+div.admazing-icons li a strong {
+	font-weight:normal;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+div.admazing-icons li a:hover strong {
+	opacity:1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+/* Size icons */
+div.admazing-icons ul.admazing-size-50 li {
+	margin:10px;
+	font-size:11px;
+}
+div.admazing-icons ul.admazing-size-50 a {
+	width:50px;
+	height:50px;
+	font-size:35px;
+	line-height:50px;
+}
+div.admazing-icons ul.admazing-size-50 a.delete_icon {
+	margin-left:35px;
+}
+
+div.admazing-icons ul.admazing-size-75 li {
+	margin:10px;
+	font-size:12px;
+}
+div.admazing-icons ul.admazing-size-75 a {
+	width:75px;
+	height:75px;
+	font-size:52px;
+	line-height:75px;
+}
+div.admazing-icons ul.admazing-size-75 a.delete_icon {
+	margin-left:61px;
+}
+
+div.admazing-icons ul.admazing-size-100 li {
+	margin:20px;
+}
+div.admazing-icons ul.admazing-size-100 a {
+	width:100px;
+	height:100px;
+	font-size:70px;
+	line-height:100px;
+}
+div.admazing-icons ul.admazing-size-100 a.delete_icon {
+	margin-left:85px;
+}
+@media only screen and (max-width: 960px) {
+	div.admazing-icons ul.admazing-size-100 li {
+		margin:10px;
+		font-size:11px;
+	}
+	div.admazing-icons ul.admazing-size-100 a {
+		width:50px;
+		height:50px;
+		font-size:35px;
+		line-height:50px;
+	}
+	div.admazing-icons ul.admazing-size-100 a.delete_icon {
+		margin-left:35px;
+	}
+}
+/* Skin icons */
+div.admazing-icons ul.admazing-clear-gray a {
+	border:#DFDFDF 1px solid;
+	border-radius:3px;
+	background:#f3f3f3;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4));
+	background-image:-webkit-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image:-moz-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image:-o-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image:linear-gradient(to bottom,#fefefe,#f4f4f4);
+	color:#aaa;
+}
+div.admazing-icons ul.admazing-clear-gray a:hover {
+	border-color:#999;
+}
+
+
+div.admazing-icons ul.admazing-dark a {
+	border:#666 1px solid;
+	border-radius:3px;
+	background: #4f4f4f;
+	background: -moz-linear-gradient(top,  #4f4f4f 1%, #262626 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#4f4f4f), color-stop(100%,#262626));
+	background: -webkit-linear-gradient(top,  #4f4f4f 1%,#262626 100%);
+	background: -o-linear-gradient(top,  #4f4f4f 1%,#262626 100%);
+	background: -ms-linear-gradient(top,  #4f4f4f 1%,#262626 100%);
+	background: linear-gradient(to bottom,  #4f4f4f 1%,#262626 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#262626',GradientType=0 );
+	color:#fff;
+}
+div.admazing-icons ul.admazing-dark a:hover {
+	border-color:#000;
+}
+div.admazing-icons ul.admazing-dark li span {
+	color:#000;
+	background:#ddd;
+}
+
+
+
+
+/* top menu styles */
+
+div.top-admazing-menu {
+	position:fixed;
+	top:28px;
+	left:0;
+	width:100%;
+	height:28px;
+	z-index:100;
+}
+div.top-admazing-menu ul {
+	margin:0; padding:0;
+}
+div.top-admazing-menu li {
+	display:inline-block;
+	float:left;
+	margin:0;
+	
+}
+div.top-admazing-menu li a {
+	padding:0 13px;
+	display:inline-block;
+	height:28px;
+	line-height:28px;
+	text-decoration:none;
+}
+div.top-admazing-menu li ul {
+	display:none;
+	position:absolute;
+}
+div.top-admazing-menu li:hover ul {
+	display:block;
+}
+
+div.top-admazing-menu li li {
+	display:block;
+	float:none;
+	padding:0;
+	border:0;
+}
+div.top-admazing-menu li li a {
+	display:block;
+}
+/* skin */
+div.top-admazing-menu {
+	background:#eee;
+	background-image:-webkit-gradient(linear,left bottom,left top,from(#e5e5e5),to(#f4f4f4));
+	background-image:-webkit-linear-gradient(bottom,#e5e5e5,#f4f4f4);
+	background-image:-moz-linear-gradient(bottom,#e5e5e5,#f4f4f4);
+	background-image:-o-linear-gradient(bottom,#e5e5e5,#f4f4f4);
+	background-image:linear-gradient(to top,#e5e5e5,#f4f4f4);
+	border-bottom:#d1d1d1 1px solid;
+}
+div.top-admazing-menu li{
+	border-right:#d8d8d8 1px solid;
+	border-left:#fff 1px solid;
+}
+div.top-admazing-menu li:first-child {
+	border-left:0;
+}
+div.top-admazing-menu li:last-child {
+	border-right:0;
+}
+
+div.top-admazing-menu li.menu-item-has-children:hover,
+div.top-admazing-menu li ul {
+	background:#fff;
+}
+div.top-admazing-menu li ul {
+	border:#dfdfdf 1px solid;
+	border-top:0;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+
+div.top-admazing-menu li a {
+	color:#333;
+}
+div.top-admazing-menu li li a {
+	color:#21759b;
+}
+div.top-admazing-menu li.menu-item-has-children:hover li a:hover,
+div.top-admazing-menu li li a:hover {
+	background:#eaf2fa;
+	color:#21759b;
+}
+div.top-admazing-menu li.menu-item-has-children a:hover {
+	background:#fff;
+	color:#000;
+}
